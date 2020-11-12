@@ -9,7 +9,7 @@ class Layout extends Component {
             <div>
                 <Switch>
                     <Route path="/welcome" name="Welcome" component={Welcome} />
-                    <Route path="/products" name="Welcome" component={Prodcuts} />
+                    <Route path="/products" name="Products" component={Prodcuts} />
                     <Redirect from="/" to="/welcome" />
                 </Switch>
             </div>
