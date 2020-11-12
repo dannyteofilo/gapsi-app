@@ -8,7 +8,7 @@ class Layout extends Component {
             <div>
                 <Switch>
                     <Route path="/welcome" name="Welcome" component={Welcome} />
-                    <Redirect from="/" to="/home" />
+                    <Redirect from="/" to="/welcome" />
                 </Switch>
             </div>
         )

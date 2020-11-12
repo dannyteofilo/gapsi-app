@@ -13,8 +13,8 @@ import Layout from 'layout'
 
 const theme = createMuiTheme({
   palette: {
-    primary: { main: '#ff5722' },
-    secondary: { main: '#00b0ff' }
+    primary: { main: '#e0e0e0' },
+    secondary: { main: '#64b5f6' }
   }
 });
 

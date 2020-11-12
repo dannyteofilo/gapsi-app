@@ -20,7 +20,7 @@ class Http {
         return this.axios.delete(url, this.getConfig(config));
     }
 
-    post(url, data = {}, config = {}) {
+    post(url, data = {}, config = {}) {       
         return this.axios.post(url, data, this.getConfig(config))
     }
 
