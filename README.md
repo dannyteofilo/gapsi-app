@@ -1,3 +1,9 @@
+# Important
+ 
+ to run the application it is necessary to create an environment file with the following data:
+ NODE_PATH=src/
+ REACT_APP_API_URL='https://node-red-nxdup.mybluemix.net'
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
