@@ -108,3 +108,103 @@ export const products = {
         ]
     }
 }
+
+export const videoGames = {
+    "code": 200,
+    "description": "All products",
+    "data": {
+        "type": "Products",
+        "products": [
+            {
+                "ID": 1,
+                "TYPE": "Product",
+                "SKU": "0001",
+                "NAME": "Videojuego",
+                "DESCRIPTION": "Outcast Second Contact Playstation 4",
+                "PRICE": 399,
+                "IMAGE": "https://i.imgur.com/5uUphlh.jpg"
+            },
+            {
+                "ID": 2,
+                "TYPE": "Product",
+                "SKU": "0002",
+                "NAME": "Videojuego",
+                "DESCRIPTION": "Pes 2018 Pro Evolution Soccer PlayStation 4",
+                "PRICE": 399,
+                "IMAGE": "https://i.imgur.com/RQaLw02.jpg"
+            },
+            {
+                "ID": 3,
+                "TYPE": "Product",
+                "SKU": "0003",
+                "NAME": "Videojuego",
+                "DESCRIPTION": "Final Fantasy XV PlayStation 4",
+                "PRICE": 649,
+                "IMAGE": "https://i.imgur.com/V4Kyg8L.jpg"
+            },
+            {
+                "ID": 4,
+                "TYPE": "Product",
+                "SKU": "0004",
+                "NAME": "Videojuego",
+                "DESCRIPTION": "Earthfall Deluxe Edition PlayStation 4",
+                "PRICE": 1104,
+                "IMAGE": "https://i.imgur.com/OJXYQM2.jpg"
+            },
+            {
+                "ID": 5,
+                "TYPE": "Product",
+                "SKU": "0005",
+                "NAME": "Videojuego",
+                "DESCRIPTION": "Max: The Curse Of Brotherhood Playstation 4",
+                "PRICE": 699,
+                "IMAGE": "https://i.imgur.com/ePSDM1Y.jpg"
+            },
+            {
+                "ID": 6,
+                "TYPE": "Product",
+                "SKU": "0006",
+                "NAME": "Videojuego",
+                "DESCRIPTION": "Uncharted The Lost Legacy PlayStation 4",
+                "PRICE": 799,
+                "IMAGE": "https://i.imgur.com/Ms8kauJ.jpg"
+            },
+            {
+                "ID": 7,
+                "TYPE": "Product",
+                "SKU": "0007",
+                "NAME": "Videojuego",
+                "DESCRIPTION": "Overwatch Game Of The Year Edition PlayStation 4",
+                "PRICE": 699,
+                "IMAGE": "https://i.imgur.com/Lj31zp1.jpg"
+            },
+            {
+                "ID": 8,
+                "TYPE": "Product",
+                "SKU": "0008",
+                "NAME": "Videojuego",
+                "DESCRIPTION": "Bayonetta & Vanquish 10th Anniversary",
+                "PRICE": 899,
+                "IMAGE": "https://i.imgur.com/j6Ja55c.jpg"
+            },
+            {
+                "ID": 9,
+                "TYPE": "Product",
+                "SKU": "0009",
+                "NAME": "Videojuego",
+                "DESCRIPTION": "Walking Dead: Complete 1St Season - Playstation 4 Standard Edition",
+                "PRICE": 499,
+                "IMAGE": "https://i.imgur.com/5Al5hLQ.jpg"
+            },
+            {
+                "ID": 10,
+                "TYPE": "Product",
+                "SKU": "0010",
+                "NAME": "Videojuego",
+                "DESCRIPTION": "Harvest Moon: Light Of Hope Playstation 4",
+                "PRICE": 999,
+                "IMAGE": "https://i.imgur.com/AwYSzwc.jpg"
+            }
+        ]
+    }
+}

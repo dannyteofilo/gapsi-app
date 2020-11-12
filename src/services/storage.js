@@ -1,9 +1,10 @@
 
-import { dataWelcome, products } from './fixtures/products';
+import { dataWelcome, products,videoGames } from './fixtures/products';
 class Storage {
     constructor() {
         this.data = { ...dataWelcome };
         this.products = { ...products }
+        this.videogames = {...videoGames}
     }
 
     welcomeData() {
@@ -17,7 +18,7 @@ class Storage {
     getProducts() {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
-                resolve(this.products);
+                resolve(this.videogames);
             }, 1000)
         });
     }
